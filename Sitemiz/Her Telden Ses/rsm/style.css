@@ -1,0 +1,80 @@
+﻿body 				
+{
+	background-color: #43525a;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	font-family: Verdana, Verdana, Arial, Helvetica;
+	}
+td					{ font-family: Tahoma,Verdana,Helvetica; font-size: 9pt}
+P					{ font-family: Tahoma,Verdana,Helvetica; font-size: 9pt}
+
+
+.tablo 				{ width: 100%; background: #DDEEFF; border: 0px solid #D1E6EF;}
+.alt_tablo 			{ width: 100%; height:47px; text-align: center; background-image: url(rsm/menu_orta.png); border: 0px solid #D1E6EF;}
+.yonetim_tablo		{ width: 100%; height:30px;  border: 0px solid #7bc1f2;}
+.yonetim_basliklar	{ width: 100%; height:30px; text-align: center; background-image: url(rsm/yonetim_baslik.png); border: 1px solid #D1E6EF;}
+.yonetim_basliklar_font	{ font-family: Arial; font-size:14px; font-weight: bold; color: #d70000; text-decoration:none; }
+
+A:link {FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #646464; FONT-FAMILY: Tahoma,Verdana, Helvetica; TEXT-DECORATION: none}
+A:active {FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #8c8c8c; FONT-FAMILY: Tahoma,Verdana, Helvetica; TEXT-DECORATION: none}
+A:visited {FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #646464; FONT-FAMILY: Tahoma,Verdana, Helvetica; TEXT-DECORATION: none}
+A:hover {FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #9f9f9f; FONT-FAMILY: Tahoma,Verdana, Helvetica; TEXT-DECORATION: none}
+
+a.sol_menu:link		{ font-family: Arial; font-size:9pt; font-weight: bold; color: #437200; text-decoration:none;}
+a.sol_menu:active	{ font-family: Arial; font-size:9pt; font-weight: bold; color: #437200; text-decoration:none;}
+a.sol_menu:visited  { font-family: Arial; font-size:9pt; color: #437200; text-decoration:none;}
+a.sol_menu:hover    { font-family: Arial; font-size:9pt; color: #ff0000; text-decoration:underline;}
+
+
+
+
+.arrowlistmenu{
+width: 180px; /*width of accordion menu*/
+}
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+color: white;
+background: black url('titlebar.png') repeat-x center left;
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+/*header text is indented 10px*/
+cursor: hand;
+cursor: pointer; font-style:normal; font-variant:normal; font-weight:bold; font-size:14px; font-family:Arial; padding-left:10px; padding-right:0; padding-top:4px; padding-bottom:4px
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+background-image: url('titlebar-active.png');
+}
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li a{
+color: #A70303;
+background: url('arrowbullet.png') no-repeat center left; /*custom bullet list image*/
+display: block;
+padding-left: 19px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%; padding-right:0; padding-top:2px; padding-bottom:2px
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color: #A70303;
+background-color: #F3F3F3;
+}

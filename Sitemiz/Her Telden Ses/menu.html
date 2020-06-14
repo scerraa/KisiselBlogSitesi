@@ -1,0 +1,114 @@
+<head>
+<head runat="server">
+    <title>E-Ticaret</title>
+    <link href="rsm/style.css" rel="stylesheet" type="text/css" />
+    <SCRIPT LANGUAGE="JavaScript">
+<!-- begin
+function display() {
+window.onerror=null;
+
+colors = window.screen.colorDepth;
+document.form.color.value = Math.pow (2, colors);
+document.form.navigator.value = navigator.appName;
+document.form.version.value = navigator.appVersion;
+document.form.colordepth.value = window.screen.colorDepth;
+document.form.width.value = window.screen.width;
+document.form.height.value = window.screen.height;
+document.form.maxwidth.value = window.screen.availWidth;
+document.form.maxheight.value = window.screen.availHeight;
+document.form.codename.value = navigator.appCodeName;
+document.form.platform.value = navigator.platform;
+if (navigator.javaEnabled() < 1) document.form.java.value="Pasif";
+if (navigator.javaEnabled() == 1) document.form.java.value="Aktif";
+
+if(navigator.javaEnabled() && (navigator.appName != "Microsoft Internet Explorer")) {
+vartool=java.awt.Toolkit.getDefaultToolkit();
+addr=java.net.InetAddress.getLocalHost();
+host=addr.getHostName();
+ip=addr.getHostAddress();
+   }
+}
+// end -->
+</script>
+
+</head>
+</head>
+<table border="0" cellSpacing="0" cellPadding="0" width="100%" bgcolor="#ffffff">
+      <tr>
+        <td width="19" style="height: 19px">
+        <img border="0" src="rsm/sol/sol2.png" width="19" height="19"></td>
+        <td width="90%" bgcolor="#FFFFFF" style="height: 19px">
+        <img src="rsm/bosluk.gif" style="width: 177px; height: 1px"/></td>
+        <td style="width: 20px; height: 19px">
+        <img border="0" src="rsm/sol/sol3.png" width="19" height="19"></td>
+      </tr>
+      <tr>
+        <td bgColor="#ffffff" width="100%" colSpan="3" align="middle" valign="top">
+        <table border="0" cellpadding="10" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%">
+          <tr>
+            <td valign="top" align="center">
+<script type="text/javascript" src="rsm/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="rsm/ddaccordion.js"></script>
+<script type="text/javascript">
+ddaccordion.init({
+	headerclass: "expandable", //Shared CSS class name of headers group that are expandable
+	contentclass: "categoryitems", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [0], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", "openheader"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+</script>
+<table align="left"><tr><td align="left" valign="top">
+<div class="arrowlistmenu">
+<h3 class="menuheader expandable">KATEGORÝ ÝÞLEMLERÝ</h3>
+<ul class="categoryitems">
+<li><a href="yonetim.aspx?ad=kategoriler">Kategori Ekle/Düzenle/Sil</a></li>
+</ul>
+<!--
+<h3 class="menuheader expandable">HABER ÝÞLEMLERÝ</h3>
+<ul class="categoryitems">
+<li><a href="yonetim.aspx?ad=haberler" >Haber Ekle/Düzenle/Sil</a></li>
+<li><a href="yonetim.aspx?ad=haberyorum">Yorumlar</a></li>
+</ul>-->
+<h3 class="menuheader expandable">ZÝYARETÇÝ ÝÞLEMLERÝ</h3>
+<ul class="categoryitems">
+<li><a href="yonetim.aspx?ad=defter" >Ziyaretçi Mesajlarýný Görüntüle</a></li>
+</ul>
+<h3 class="menuheader expandable">DUYURU ÝÞLEMLERÝ</h3>
+<ul class="categoryitems">
+<li><a href="yonetim.aspx?ad=duyurular" >Duyuru Ekle/Sil</a></li>
+</ul>
+<h3 class="menuheader expandable">YÖNETÝCÝ ÝÞLEMLERÝ</h3>
+<ul class="categoryitems">
+<li><a href="yonetim.aspx?ad=yoneticiler" >Yönetici Ekle/Düzenle/Sil</a></li>
+</ul>
+</div>
+</td></tr></table>
+            </td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+      <tr>
+        <td width="5%">
+        <img border="0" src="rsm/sol/sol5.png" width="19" height="19"></td>
+        <td width="90%" bgcolor="#FFFFFF">
+        &nbsp;</td>
+        <td style="width: 20px">
+        <img border="0" src="rsm/sol/sol4.png" width="19" height="19"></td>
+      </tr>
+    </table>
